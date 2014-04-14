@@ -13,6 +13,8 @@
         "joshuaestes/composer-installer-puppet": "*"
     },
     "extra": {
-        "puppet-module": "mysql"
+        "puppet": {
+            "module_name": "mysql"
+        }
     }
 }
