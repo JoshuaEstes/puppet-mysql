@@ -3,18 +3,10 @@
     "type": "puppet-module",
     "license": "MIT",
     "description": "Puppet module to manage mysql service",
-    "repositories": [
-        {
-            "type": "git",
-            "url": "git://github.com/JoshuaEstes/ComposerInstallerPuppet.git"
-        }
-    ],
     "require": {
-        "joshuaestes/composer-installer-puppet": "*"
+        "composer/installers": "~1.0"
     },
     "extra": {
-        "puppet": {
-            "module_name": "mysql"
-        }
+        "installer-name": "mysql"
     }
 }
